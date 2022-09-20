@@ -1,0 +1,29 @@
+<?php
+/**
+ * Implements hook_dxpr_builder_classes_alter().
+ */
+function dxpr_builder_zoweh_dxpr_builder_classes_alter(&$dxpr_builder_classes) {
+  $dxpr_builder_classes['optgroup-zoweh-group'] = t('Zoweh Buttons');
+  $dxpr_builder_classes['zoweh-button-border'] = t('Button Border');
+  $dxpr_builder_classes['zoweh-button-border-black'] = t('Button Border Black');
+  $dxpr_builder_classes['zoweh-button-border-white'] = t('Button Border White');
+  $dxpr_builder_classes['zoweh-button-outline'] = t('Button Outline');
+  $dxpr_builder_classes['zoweh-button-outline-black'] = t('Button Outline Black');
+  $dxpr_builder_classes['zoweh-button-outline-white'] = t('Button Outline White');
+  $dxpr_builder_classes['zoweh-button-flat'] = t('Button Flat');
+  $dxpr_builder_classes['zoweh-button-flat-black'] = t('Button Flat Black');
+  $dxpr_builder_classes['zoweh-button-flat-white'] = t('Button Flat White');
+  $dxpr_builder_classes['zoweh-button-3d'] = t('Button 3D');
+  $dxpr_builder_classes['zoweh-button-primary'] = t('Button Primary');
+}
+
+/**
+ * Implements hook_library_info_alter().
+ *
+ * @see https://www.drupal.org/project/bootstrap/issues/3014248
+ */
+function dxpr_builder_zoweh_library_info_alter(&$libraries, $extension) {
+  if ($extension == 'dxpr_builder') {
+    $libraries['core']['dependencies'][] = 'dxpr_builder_zoweh/core';
+  }
+}

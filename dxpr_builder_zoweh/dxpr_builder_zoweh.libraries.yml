@@ -1,0 +1,7 @@
+# DXPR Builder Libraries
+
+core:
+  version: VERSION
+  css:
+    theme:
+      dxpr_builder_zoweh.css: {}

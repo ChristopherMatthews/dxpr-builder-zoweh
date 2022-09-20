@@ -1,0 +1,126 @@
+body .zoweh-button-flat > .btn,
+body .zoweh-button-flat-black > .btn,
+body .zoweh-button-flat-white > .btn {
+    border-width: 0
+}
+
+body .zoweh-button-flat-black > .btn {
+    background: #000;
+    color: #fff;
+}
+body .zoweh-button-flat-black > .btn:hover,
+body .zoweh-button-flat-black > .btn:focus {
+    background: #fff;
+    color: #000;
+}
+
+body .zoweh-button-flat-white > .btn {
+    background: #fff;
+    color: #b32317;
+}
+body .zoweh-button-flat-white > .btn:hover,
+body .zoweh-button-flat-white > .btn:focus {
+    background: #000;
+    color: #fff;
+}
+
+body .zoweh-button-3d > .btn {
+    border-width: 0 1px 3px 1px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 7px 0px rgba(50, 50, 50, 0.5)
+}
+
+body .zoweh-button-outline > .btn,
+body .zoweh-button-outline-black > .btn,
+body .zoweh-button-outline-white > .btn {
+    display: inline-block;
+    background: transparent;
+    border: 1px solid #333;
+    color: #333;
+    border-radius: 5px;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 1px
+}
+body .zoweh-button-outline-white > .btn {
+    border-color: #fff;
+    color: #fff;
+}
+body .zoweh-button-outline-black > .btn {
+    border-color: #000;
+    color: #000;
+}
+
+body .zoweh-button-outline > .btn:hover,
+body .zoweh-button-outline-black > .btn:hover,
+body .zoweh-button-outline-white > .btn:hover,
+body .zoweh-button-outline > .btn:focus,
+body .zoweh-button-outline-black > .btn:focus,
+body .zoweh-button-outline-white > .btn:focus {
+    box-shadow: none;
+    font-weight: normal;
+    background: #333;
+    border: 1px solid #333;
+    color: white
+}
+body .zoweh-button-outline-white > .btn:hover,
+body .zoweh-button-outline-white > .btn:focus {
+    background-color: #fff;
+    color: #b32317;
+    border-color: #fff;
+}
+body .zoweh-button-outline-black > .btn:hover,
+body .zoweh-button-outline-black > .btn:focus {
+    background-color: #000;
+    color: #fff;
+}
+
+body .zoweh-button-border > .btn,
+body .zoweh-button-border-black > .btn,
+body .zoweh-button-border-white > .btn {
+    display: inline-block;
+    background: transparent;
+    border: 3px solid #333;
+    color: #333;
+    border-radius: 0;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 1px
+}
+body .zoweh-button-border-white > .btn {
+    border-color: #fff;
+    color: #fff;
+}
+body .zoweh-button-border-black > .btn {
+    border-color: #000;
+    color: #000;
+}
+
+body .zoweh-button-border > .btn:hover,
+body .zoweh-button-border-black > .btn:hover,
+body .zoweh-button-border-white > .btn:hover,
+body .zoweh-button-border > .btn:focus,
+body .zoweh-button-border-black > .btn:focus,
+body .zoweh-button-border-white > .btn:focus {
+    box-shadow: none;
+    font-weight: normal;
+    background: #333;
+    border: 3px solid #333;
+    color: white
+}
+body .zoweh-button-border-white > .btn:hover,
+body .zoweh-button-border-white > .btn:focus {
+    background-color: #fff;
+    border-color: #fff;
+    color: #b32317;
+}
+body .zoweh-button-border-black > .btn:hover,
+body .zoweh-button-border-black > .btn:focus {
+    background-color: #000;
+    color: #fff;
+}
+
